@@ -13,13 +13,14 @@ const App = () => {
       setAllUsers(data);
     } catch (error) {
       console.error(error.message);
+    } finally {
+      setIsloading(false);
     }
   };
 
   useEffect(() => {
-    getUsers();
     let timer = setTimeout(() => {
-      setIsloading(false);
+      getUsers();
     }, 1500);
 
     return () => clearTimeout(timer);

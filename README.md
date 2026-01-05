@@ -1,16 +1,40 @@
-# React + Vite
+React Skeleton User Directory
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A production-style user directory built with React, focused on industry-level skeleton loaders and clean UI patterns.
+The project demonstrates how to design skeletons that perfectly match the final UI to avoid layout shift and improve UX.
 
-Currently, two official plugins are available:
+✨ Features
+Industry-level skeleton loading UI
+Skeletons that match final card layout (no layout jump)
+Clean, modern dark-mode user cards
+Simulated API delay for realistic loading behavior
+Separation of logic and presentation components
+Built with scalable frontend best practices
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🧩 Tech Stack
+React
+Tailwind CSS
+JavaScript (ES6+)
+Fetch API
+Vite
 
-## React Compiler
+🧠 Key Learning Goals
+Designing skeleton loaders as part of UI, not an afterthought
+Handling loading states correctly in async React flows
+Avoiding common mistakes like early loading termination
+Building stable, production-ready card components
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🎯 Why Skeleton-First UI?
+Skeleton loaders are treated as a core UX element, not just placeholders.
+Each skeleton component mirrors the final UI structure to ensure:
 
-## Expanding the ESLint configuration
+No layout shift
+Smooth visual transition
+Professional, “expensive” product feel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+📌 Use Cases
+SaaS dashboards
+Admin panels
+User directories
+Any UI that fetches list-based data
